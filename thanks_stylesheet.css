@@ -59,17 +59,17 @@ header {
 .header-text a {
   color: black;
   font-size: 15px;
-  width:10%;
+  width:11%;
   text-align: center;
   display: inline-block;
   line-height: 65px;
   text-decoration: none;
   letter-spacing: 5px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .header-text a:hover {
-  background-color: #696969;
+  opacity: 0.4;
 }
 
 /*top-wrapper */
