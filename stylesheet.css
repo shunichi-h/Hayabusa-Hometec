@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/*common */
+.container {
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0px;
+}
+
+.heading {
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin: 100px auto 0 auto;
+  font-size: 30px;
+}
+
+.inner_container {
+  display: inline-block;
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+
+/*header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #D3FCDD;
+  text-align: center;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  color: black;
+  line-height: 65px;
+  font-size: 25px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.header-text {
+  text-align: right;
+}
+
+.header-text a {
+  color: black;
+  font-size: 15px;
+  width:11%;
+  text-align: center;
+  display: inline-block;
+  line-height: 65px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  transition: all 0.5s;
+}
+
+.header-text a:hover {
+  opacity: 0.4;
+}
+
+/*top-wrapper */
+.top-wrapper {
+  background-image: url(top.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.top {
+  height: 700px;
+  padding-top: 65px;
+  position: relative;
+}
+
+.main-heading {
+  font-size: 40px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  font-weight: normal;
+}
+
+/*profile-wrapper */
+.profile-wrapper {
+  height: 600px;
+}
+
+.profile_image_container {
+  text-align: right;
+}
+
+.profile_image {
+  width: 80%;
+  margin-top: 80px;
+  margin-right: 0;
+}
+
+.profile_text {
+  margin-top: 80px;
+  margin-left: 5%;
+  width: 75%;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/*service-wrapper */
+.service-wrapper {
+  height: 600px;
+}
+
+.service_image {
+  width: 80%;
+  margin-top: 80px;
+}
+
+.service_text {
+  margin-top: 80px;
+  margin-right: 5%;
+  margin-left: auto;
+  width: 75%;
+}
+
+/*flow-wrapper */
+.flow-wrapper {
+  height: 600px;
+}
+
+.flow {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.flow_box {
+  width: 65%;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: #D3FCDD;
+}
+
+.flow_title {
+  line-height: 60px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+}
+
+.flow_text {
+  width: 70%;
+  height: 60px;
+  margin-left: 30%;
+  line-height: 30px;
+  padding-left: 5%;
+}
+
+.triangle_box {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.triangle{
+  display: inline-block;
+  width: 30px;
+  margin: 15px auto 10px auto;
+}
+
+
+/*contact-wrapper */
+.contact-wrapper {
+  height: 850px;
+}
+
+.contact_form {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact label {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.contact input {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 15px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.contact textarea {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+.required {
+  color: red;
+  font-style: normal;
+}
+
+.button {
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/*footer */
+footer {
+  height: 65px;
+  width: 100%;
+  background-color: #D3FCDD;
+  text-align: center;
+}
+
+.copyright {
+  line-height: 65px;
+}
