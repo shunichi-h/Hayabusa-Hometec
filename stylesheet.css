@@ -27,10 +27,13 @@ body {
 .inner_container {
   display: inline-block;
   width: 50%;
-  height: 500px;
+  height: 250px;
   float: left;
 }
 
+.br_560 {
+  display: none;
+}
 
 /*header */
 header {
@@ -119,6 +122,10 @@ header {
 /*service-wrapper */
 .service-wrapper {
   height: 600px;
+}
+
+.responsive_560_open {
+  display: none;
 }
 
 .service_image {
