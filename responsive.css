@@ -94,6 +94,59 @@
   line-height: 22px;
 }
 
+/*flow-wrapper */
+.flow-wrapper {
+  height: 520px;
+}
+
+.flow {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.flow_box {
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: #D3FCDD;
+}
+
+.flow_title {
+  line-height: 18px;
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+}
+
+.flow_text {
+  width: 100%;
+  height: 30px;
+  line-height: 12px;
+  font-size: 12px;
+  padding-left: 5%;
+  margin: 25px 0 0 0;
+  padding-top: 3px;
+}
+
+.triangle_box {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.triangle{
+  display: inline-block;
+  width: 30px;
+  margin: 15px auto 10px auto;
+}
+
 
 
 
