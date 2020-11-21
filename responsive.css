@@ -18,9 +18,14 @@
   }
 
   /*header */
+  header {
+    height: 50px;
+  }
+
  .header-logo {
    font-size: 20px;
    width: 100%;
+   line-height: 50px;
  }
  
  .header-text {
@@ -145,6 +150,19 @@
   display: inline-block;
   width: 30px;
   margin: 15px auto 10px auto;
+}
+
+/*contact-wrapper */
+.contact label {
+  width: 80%;
+}
+
+.contact input {
+  width: 80%;
+}
+
+.contact textarea {
+  width: 80%;
 }
 
 
