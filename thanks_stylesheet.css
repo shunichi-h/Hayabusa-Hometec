@@ -32,6 +32,10 @@ body {
   border: 1px solid blue;
 }
 
+.br_560 {
+  display: none;
+}
+
 
 /*header */
 header {
@@ -102,7 +106,7 @@ header {
   text-decoration: none;
   color: black;
   background-color: lightgray;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 

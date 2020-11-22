@@ -1,0 +1,62 @@
+
+@media screen and (max-width:560px) {
+ 
+  /*common */
+  .br_560 {
+    display: block;
+  }
+
+  .heading {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .inner_container {
+    display: inline-block;
+    width: 100%;
+    float: left;
+  }
+
+  /*header */
+  header {
+    height: 50px;
+  }
+
+ .header-logo {
+   font-size: 20px;
+   width: 100%;
+   line-height: 50px;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .header-text {
+   display: none;
+ }
+
+ /*top-wrapper */
+
+ .top-wrapper {
+  background-position: 25%;
+  height: 500px;
+ }
+
+ .top {
+  height: 500px;
+ }
+
+ .top img {
+   width: 100%;
+ }
+
+ .main-heading {
+  font-size: 29px;
+  font-weight: normal;
+  }
+
+  
+ 
+}
+
+
+
