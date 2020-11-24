@@ -1,9 +1,13 @@
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:1180px) {
  
   /*common */
   .br_560 {
     display: block;
+  }
+
+  .container {
+    height: auto ;
   }
 
   .heading {
@@ -38,11 +42,11 @@
 
  .top-wrapper {
   background-position: 25%;
-  height: 500px;
+  height: auto;
  }
 
  .top {
-  height: 500px;
+  height: auto;
  }
 
  .top img {
@@ -52,8 +56,12 @@
  .main-heading {
   font-size: 29px;
   font-weight: normal;
+  margin-top: 20px;
   }
 
+  footer {
+    position: static;
+  }
   
  
 }

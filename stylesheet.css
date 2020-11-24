@@ -27,7 +27,7 @@ body {
 .inner_container {
   display: inline-block;
   width: 50%;
-  height: 250px;
+  height: auto;
   float: left;
 }
 
@@ -155,7 +155,7 @@ header {
 
 .flow_box {
   width: 65%;
-  height: 60px;
+  min-height: 60px;
   border: 1px solid black;
   border-radius: 20px;
   margin: 0 auto;
@@ -173,7 +173,7 @@ header {
 
 .flow_text {
   width: 70%;
-  height: 60px;
+  min-height: 30px;
   margin-left: 30%;
   line-height: 30px;
   padding-left: 5%;

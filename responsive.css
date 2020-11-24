@@ -1,10 +1,14 @@
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:1180px) {
  
   /*common */
   .br_560 {
     display: block;
   }
+
+  .br_560_none {
+    display: none;
+  }  
 
   .heading {
     font-size: 20px;
@@ -52,7 +56,7 @@
 
 /*profile-wrapper */
 .profile-wrapper {
-  height: 500px;
+  height: auto;
 }
 
 .profile_image_container {
@@ -66,15 +70,16 @@
 }
 
 .profile_text {
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   width: 100%;
   font-size: 13px;
   line-height: 22px;
+  
 }
 
 /*service-wrapper */
 .service-wrapper {
-  height: 500px;
+  height: auto;
 }
 
 .responsive_560_open {
@@ -95,7 +100,7 @@
 }
 
 .service_text {
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   width: 100%;
   font-size: 13px;
   line-height: 22px;
@@ -103,7 +108,7 @@
 
 /*flow-wrapper */
 .flow-wrapper {
-  height: 520px;
+  height: auto;
 }
 
 .flow {
@@ -114,7 +119,7 @@
 
 .flow_box {
   width: 100%;
-  height: 60px;
+  min-height: 30px;
   border: 1px solid black;
   border-radius: 20px;
   margin: 0 auto;
@@ -133,10 +138,11 @@
 
 .flow_text {
   width: 100%;
-  height: 30px;
+  min-height: 30px;
   line-height: 12px;
   font-size: 12px;
   padding-left: 5%;
+  padding-right: 5%;
   margin: 25px 0 0 0;
   padding-top: 3px;
 }
